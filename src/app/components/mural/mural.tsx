@@ -34,7 +34,7 @@ export function Mural({className, ...rest}: IPropsMural){
 		const addMorePost = () => isAtEndMural() && getMorePost();
 		document.addEventListener("scroll", addMorePost);
 		mainElemRef.current?.addEventListener("scroll", addMorePost);
-	}, [mainElemRef]);
+	}, [mainElemRef, getMorePost, isAtEndMural]);
 
 	return(
 		<main className={twMerge("columns-3 p-6 gap-6", className)} ref={mainElemRef} {...rest}>

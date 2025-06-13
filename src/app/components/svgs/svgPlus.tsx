@@ -5,6 +5,7 @@ export interface IPropsSvgPlus extends HTMLAttributes<HTMLOrSVGElement> {
 }
 
 export function SvgPlus({isOpen, ...rest}: IPropsSvgPlus){
+	console.log(isOpen)
 	return(
 		<svg width="100" height="100" viewBox="0 0 100 100" {...rest}>
 			<rect x="45" y="20" width="10" height="60" />

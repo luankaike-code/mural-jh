@@ -5,7 +5,6 @@ import { RoundButton, SvgPlus } from "@components";
 export interface IPropsHeader extends HTMLAttributes<HTMLHeadingElement> {}
 
 export function Header({ className }: IPropsHeader){
-	const toogle = 1;
 	return(
 		<header className={twMerge("bg-emphasis h-24 mb-24", className)}>
 			<ul className="relative flex justify-between items-center list-none h-full p-4">

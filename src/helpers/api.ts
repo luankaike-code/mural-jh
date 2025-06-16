@@ -1,6 +1,10 @@
 import { IDataPost } from "./interfaces"
 
 const db: IDataPost[] = [
+	{
+		codename: "gato mansinho_45",
+		markdown: "Hoje trocaram a tia da cozinha, a comida estava dura por algum motivo, o feijão estava duro, queria que trocasse a tia da cozinha"
+	},
   {
     codename: "Águia Curiosa",
     markdown: "Hoje tivemos uma palestra incrível sobre sustentabilidade no auditório! Aprendi muito sobre reciclagem e como podemos ajudar o meio ambiente. Pena que o ar-condicionado estava um pouco fraco, mas a mensagem foi poderosa!"

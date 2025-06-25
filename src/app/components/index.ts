@@ -4,23 +4,30 @@ import { Wrapper, IPropsWrapper, Header, IPropsHeader } from "./wrapper";
 import { Mural, IPropsMural } from "./mural";
 import { RoundButton, IPropsRoundButton } from "./roundButton";
 import { SvgPlus, IPropsSvgPlus } from "./svgs";
+import { MarkdownViwer, IPropsMarkdownViwer, MarkdownLiComponent, IPropsMarkdownLiComponent, MarkdownBlockquoteComponent, IPropsMarkdownBlockquoteComponent } from "./markdownViewer";
 
 export {
-	Mural, 
+	Mural,
 	type IPropsMural,
 	Conteiner,
 	type IPropsConteiner,
-	RoundButton, 
+	RoundButton,
 	type IPropsRoundButton,
 	Post,
-	PostBody, 
+	PostBody,
 	type IPropsPostBody,
-	 PostHeader, 
+	 PostHeader,
 	 type IPropsPostHeader,
 	 Wrapper,
 	 type IPropsWrapper,
-	 Header, 
+	 Header,
 	 type IPropsHeader,
-	 SvgPlus, 
-	 type IPropsSvgPlus
+	 SvgPlus,
+	 type IPropsSvgPlus,
+	 MarkdownViwer,
+	 type IPropsMarkdownViwer,
+	 MarkdownLiComponent,
+	 type IPropsMarkdownLiComponent,
+	 MarkdownBlockquoteComponent,
+	 type IPropsMarkdownBlockquoteComponent
 }

@@ -2,6 +2,18 @@ import { IDataPost } from "./interfaces"
 
 const db: IDataPost[] = [
 	{
+		codename: "gatinho_mansizimo_ao_quadrado",
+		markdown: `Hoje estava tentando programar esse site até **ALGUÉM** me **OBRIGAR** a:
+- escrever comentários para testar funcionalidades desse site
+- e só isso mesmo... só queria testar a lista 😳... e o emoji também
+
+
+## abaixo se encontar esse tal **ALGUÉM**
+![o link expirou (emoji gritando pra cima)](https://i.postimg.cc/gJnbtghr/gato-louco-de-catnap.webp "gato-louco-de-catnap")
+
+> há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / há ironia nesse post / `
+	},
+	{
 		codename: "gato mansinho_45",
 		markdown: "Hoje trocaram a tia da cozinha, a comida estava dura por algum motivo, o feijão estava duro, queria que trocasse a tia da cozinha"
 	},

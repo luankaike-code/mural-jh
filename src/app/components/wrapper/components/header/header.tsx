@@ -15,7 +15,7 @@ export function Header({ className }: IPropsHeader){
 				<li>
 					<ul className="absolute flex right-1/12 top-full gap-4 list-none h-full translate-x-1/2 -translate-y-1/5">
 						<li>
-							<RoundButton className="duration-200 hover:-translate-y-2">
+							<RoundButton className="duration-200 fill-foreground hover:-translate-y-2">
 								<SvgPlus className="w-full h-full"/>
 							</RoundButton>
 						</li>

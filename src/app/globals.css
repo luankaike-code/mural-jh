@@ -22,9 +22,9 @@
   :root {
     --background: #0d0c0a;
     --foreground: #f5f5dc;
-		--emphasis: #fdda65;
-		--select: #add8e6;
-		--shadow: #add8e6;
+		--emphasis: #A020F0;
+		--select: #ff8da1;
+		--shadow: #ff8da1;
   }
 }
 

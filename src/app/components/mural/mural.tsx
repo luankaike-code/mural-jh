@@ -37,7 +37,7 @@ export function Mural({className, ...rest}: IPropsMural){
 	}, [mainElemRef, getMorePost, isAtEndMural]);
 
 	return(
-		<main className={twMerge("columns-3 p-6 gap-6", className)} ref={mainElemRef} {...rest}>
+		<main className={twMerge("columns-3 p-6 gap-6 grid-col", className)} ref={mainElemRef} {...rest}>
 			{posts.map((props, i) =>
 				 <Post className="break-inside-avoid mb-4" key={i} {...props}/>
 			)}

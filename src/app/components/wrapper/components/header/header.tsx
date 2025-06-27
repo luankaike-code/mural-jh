@@ -1,8 +1,7 @@
 import { HTMLAttributes } from "react";
 import { twMerge } from "tailwind-merge";
-import { RoundButton, SvgPlus, SvgThemeMode } from "@components";
+import { RoundButton } from "@components";
 import { ButtonPublishPost, ButtonThemeMode } from "./components";
-import { changeCurrentTheme, getCurrentTheme } from "@/helpers/scripts";
 
 export interface IPropsHeader extends HTMLAttributes<HTMLHeadingElement> {}
 

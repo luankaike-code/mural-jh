@@ -5,9 +5,9 @@ export interface IPropsPostBody extends HTMLAttributes<HTMLDivElement> {
 	markdown: string,
 }
 
-export function PostBody({ markdown, className, ...rest }: IPropsPostBody){
+export function PostBody({ markdown, ...props }: IPropsPostBody){
 	return (
-		<MarkdownViwer>
+		<MarkdownViwer {...props}>
 			{markdown}
 		</MarkdownViwer>
 	);

@@ -11,8 +11,8 @@ export function MarkdownViwer({ children }: IPropsMarkdownViwer){
 
 	return (
 		<Markdown components={{
-			li: ({node, children, ...props}) => comp(<MarkdownLiComponent></MarkdownLiComponent>, props, children),
-			blockquote: ({node, children, ...props}) => comp(<MarkdownBlockquoteComponent></MarkdownBlockquoteComponent>, props, children),
+			li: ({children, ...props}) => comp(<MarkdownLiComponent></MarkdownLiComponent>, props, children),
+			blockquote: ({children, ...props}) => comp(<MarkdownBlockquoteComponent></MarkdownBlockquoteComponent>, props, children),
 		}}>
 			{children}
 		</Markdown>

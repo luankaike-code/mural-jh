@@ -1,6 +1,8 @@
 import { HTMLAttributes } from "react";
 import { twMerge } from "tailwind-merge";
-import { RoundButton, SvgPlus } from "@components";
+import { RoundButton, SvgPlus, SvgThemeMode } from "@components";
+import { ButtonPublishPost, ButtonThemeMode } from "./components";
+import { changeCurrentTheme, getCurrentTheme } from "@/helpers/scripts";
 
 export interface IPropsHeader extends HTMLAttributes<HTMLHeadingElement> {}
 
@@ -15,12 +17,16 @@ export function Header({ className }: IPropsHeader){
 				<li>
 					<ul className="absolute flex right-1/12 top-full gap-4 list-none h-full translate-x-1/2 -translate-y-1/5">
 						<li>
-							<RoundButton className="duration-200 fill-foreground hover:-translate-y-2">
-								<SvgPlus className="w-full h-full"/>
+							<ButtonPublishPost />
+						</li>
+						<li>
+							<RoundButton className="duration-200 hover:-translate-y-2">
+								x
 							</RoundButton>
 						</li>
-						<li><RoundButton className="duration-200 hover:-translate-y-2">X</RoundButton></li>
-						<li><RoundButton className="duration-200 hover:-translate-y-2">X</RoundButton></li>
+						<li>
+							<ButtonThemeMode />
+						</li>
 					</ul>
 				</li>
 			</ul>

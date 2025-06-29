@@ -1,8 +1,9 @@
-import { Post } from "./post";
+import { Post, IPropsPost } from "./post";
 import { PostBody, IPropsPostBody, PostHeader, IPropsPostHeader, PostTag, IPropsPostTag, PostTagConteiner, IPropsPostTagConteiner } from "./components";
 
 export {
 	Post,
+	type IPropsPost,
 	PostBody, 
 	type IPropsPostBody,
 	PostHeader,

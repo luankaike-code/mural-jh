@@ -1,5 +1,5 @@
 import { Conteiner, IPropsConteiner } from "./conteiner";
-import { Post, PostBody, IPropsPostBody, PostHeader, IPropsPostHeader, PostTag, IPropsPostTag, PostTagConteiner, IPropsPostTagConteiner } from "./post";
+import { Post, IPropsPost, PostBody, IPropsPostBody, PostHeader, IPropsPostHeader, PostTag, IPropsPostTag, PostTagConteiner, IPropsPostTagConteiner } from "./post";
 import { Wrapper, IPropsWrapper, Header, IPropsHeader } from "./wrapper";
 import { Mural, IPropsMural } from "./mural";
 import { RoundButton, IPropsRoundButton } from "./roundButton";
@@ -14,6 +14,7 @@ export {
 	RoundButton,
 	type IPropsRoundButton,
 	Post,
+	type IPropsPost,
 	PostBody,
 	type IPropsPostBody,
 	 PostHeader,
